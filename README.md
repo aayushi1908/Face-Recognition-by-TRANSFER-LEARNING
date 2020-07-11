@@ -1,5 +1,5 @@
 # Face-Recognition-by-TRANSFER-LEARNING
-## Transfer Learning in Deep Neural Networks - The easiest way to describe transfer learning is the use of previously acquired knowledge and skills in new learning or problem-solving situations.     
+### Transfer Learning in Deep Neural Networks - The easiest way to describe transfer learning is the use of previously acquired knowledge and skills in new learning or problem-solving situations.     
 --> In transfer learning, we reuse the weights of one or more layers from a pre-trained neural network model in our new model and either keeping the weights fixed, fine tuning them, or adapting the weights entirely when training the model.     
 --> This is the same way in which we humans learn something. Humans have an inherent ability to transfer knowledge across tasks. What we acquire as knowledge while learning about one task, we utilize in the same way to solve related tasks.     
 Example- Know how to ride a motorbike ⮫ Learn how to ride a car     
