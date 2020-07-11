@@ -6,7 +6,7 @@ Example- Know how to ride a motorbike ⮫ Learn how to ride a car
 ### I've used the concept of transfer learning in deep neural networks to train face images and do Face recognition. The pre-trained model that I've used is VGG16.   
 
 ## I've divided this project into 2 parts-    
-### 1) **For dataset creation**- 
+## 1) **For dataset creation**- 
 I've used **Open-CV library** and **Haar Cascade classifiers** for detecting the face.     
 --> The dataset has been divided into two sets- train set and test set.      
 For **train set**, the code captures 1000 images of the person's face. For the **test set**, the code captures 500 images of the person's face.   
@@ -15,7 +15,8 @@ OpenCV is a huge open-source library for the computer vision, machine learning, 
 ## About Haar Cascade-
 Haar Cascade is a machine learning object detection algorithm used to identify objects in an image or video. The Haar Cascade is trained by superimposing the positive image over a set of negative images. The training is generally done on a server and on various stages. I have used Haar Cascade Frontal face pre trained model in this project to detect the person's face.
 
-### 2) **For training of VGG16 and testing the model**- 
+## 2) **For training of VGG16 and testing the model**- 
+### For Training-
 Firstly I've imported the VGG16 model and then its weights from ImageNet. In my new model, I have freezed all the intermediate layers of VGG except the Input and Output layer. I've trained the output layer according to my requirement.       
 ## About VGG16 - 
 VGG16 is a convolutional neural network model proposed by K. Simonyan and A. Zisserman from the University of Oxford. The model achieves 92.7% top-5 test accuracy in ImageNet, which is a dataset of over 14 million images belonging to 1000 classes. It was one of the famous model submitted to ILSVRC-2014. It makes the improvement over AlexNet by replacing large kernel-sized filters (11 and 5 in the first and second convolutional layer, respectively) with multiple 3×3 kernel-sized filters one after another.
