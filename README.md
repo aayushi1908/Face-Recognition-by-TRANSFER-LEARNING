@@ -20,7 +20,7 @@ Firstly I've imported the VGG16 model and then its weights from ImageNet. In my 
 ## About VGG16 - 
 VGG16 is a convolutional neural network model proposed by K. Simonyan and A. Zisserman from the University of Oxford. The model achieves 92.7% top-5 test accuracy in ImageNet, which is a dataset of over 14 million images belonging to 1000 classes. It was one of the famous model submitted to ILSVRC-2014. It makes the improvement over AlexNet by replacing large kernel-sized filters (11 and 5 in the first and second convolutional layer, respectively) with multiple 3×3 kernel-sized filters one after another.
 
---> With the help of transfer learning, I'm able to achieve an optimum accuracy of 94.70% without use of GPU or more desired RAM.
+--> With the help of transfer learning, I'm able to achieve an optimum accuracy of 84.70% without use of GPU or more desired RAM.
 ### For Testing-
 For testing,any image provided to the model can be predicted if the image is of either of the two person's faces. The testing can also be done through the Web Cam of the laptop/PC. 
 
@@ -30,6 +30,10 @@ For testing,any image provided to the model can be predicted if the image is of 
 ### Step-2
 --> Pull the code "Transfer Learning code for VGG16" from this GitHub repository and run it, this code will train a model for the face detection of the dataset that you have created in Step-1. This code is of transfer learning and the pre-trained model I have used to transfer the learning to my face model is of VGG-16. This code will detect whose face it is among the faces trained. This way we can detect faces easily.
 
+## Scope of improvement
+I'm trying to improve the accuracy of the model to more higher level.
 
+## Acknowledgement
+I would like to thank **Mr. Vimal Daga Sir** for teaching us the concepts so clearly and deeply.
 
 
